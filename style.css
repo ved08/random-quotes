@@ -1,6 +1,7 @@
 body {
-    background-color: #38AE60;
+    background-color: rgb(56, 174, 96);
     text-align: center;
+    transition: background-color 0.5s ease;
 }
 .container {
     border-radius: 10px;
@@ -14,16 +15,20 @@ body {
     margin-right: 5px;
     vertical-align: middle;
     padding-bottom:0; 
+    color: rgb(56, 173, 95);
+    transition: color 0.5s ease;
 }
 #quote {
-    color: #38AE60;
     font-size: 30px;
 }
 #author {
     margin-top: 15px;
-    color: #38AE60;
 }
 button {
-    background-color: #38AE60;
+    background-color: rgb(56, 173, 95);
     margin-top: 60px;
+    transition: background-color 0.5s ease;
+}
+button:focus {
+    outline: none;
 }
